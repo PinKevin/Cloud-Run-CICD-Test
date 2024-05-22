@@ -3,7 +3,7 @@ const Hapi = require('@hapi/hapi');
 (async () => {
   const server = Hapi.server({
     port: 5000,
-    host: process.env.ENVIRONMENT == 'PRODUCTON' ? '0.0.0.0' : 'localhost',
+    host: '0.0.0.0',
     routes: {
       cors: {
         origin: ['*'],
