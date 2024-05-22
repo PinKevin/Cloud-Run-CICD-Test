@@ -17,7 +17,7 @@ const Hapi = require('@hapi/hapi');
     handler: (request, h) => {
       const response = h.response({
         status: 'success',
-        message: 'Halo tes',
+        message: 'Halo tes, ini cuma kuedit di VS Code, berubah via Actions Workflow',
       });
       return response;
     },
